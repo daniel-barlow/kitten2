@@ -1,0 +1,12 @@
+# override Cumulus defaults to be passed to Iodide and Cloudformation in here
+
+defaults: &defaults
+
+integration:
+  <<: *defaults
+
+staging:
+  <<: *defaults
+
+production:
+  <<: *defaults
