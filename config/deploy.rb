@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'kitten'   # change this.  OBVIOUSLY
-set :repo_url, 'git@github.com:simplybusiness/' + fetch(:application) +'.git'
+set :repo_url, 'git@github.com:simplybusiness/' + fetch(:application) +'2.git'
 
 set :ssh_options, {
  forward_agent: true,
